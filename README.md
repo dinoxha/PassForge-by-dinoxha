@@ -24,4 +24,4 @@ Feel free to explore the code, learn from it, or even contribute and improve it.
 Stay tuned — exciting updates are coming! 🚀
 Made with ❤️ by Dinoxha 🦖
 
-for windows, i have installer, "installer.exe"
+for windows, i have installer, "install.iss", and "installer.exe"
