@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00ffe5;
+  padding: 30px;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00ffe5;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #00ffe5;
+}
+
+textarea, select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  background: #1c1c2b;
+  color: #00ffe5;
+  border: 2px solid #00ffe5;
+  border-radius: 12px;
+  resize: vertical;
+  outline: none;
+  transition: 0.3s;
+}
+
+textarea:focus, select:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffe5;
+}
+
+button {
+  background: linear-gradient(90deg, #00ffe5, #0077ff);
+  color: black;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px #00ffe5;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00ccff, #0044ff);
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #111;
+  color: #00ffe5;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  min-width: 120px;
+}
+
+.tab-button:hover {
+  background: #222;
+  border-color: #00ffe5;
+}
+
+.tab-button.active {
+  background: #00ffe5;
+  color: black;
+  box-shadow: 0 0 10px #00ffe5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+  font-size: 14px;
+}
+

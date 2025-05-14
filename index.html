@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Зашифруй свой пароль</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.6.2/sql-wasm.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Зашифруй свой пароль</h1>
+
+    <div class="tabs">
+      <button class="tab-button active" onclick="showTab('encrypt')">Шифрование</button>
+      <button class="tab-button" onclick="showTab('about')">О проекте</button>
+      <button class="tab-button" onclick="showTab('why')">Зачем шифровать?</button>
+    </div>
+
+    <div class="tab-content" id="encrypt">
+      <textarea id="inputText" placeholder="Введи пароль..."></textarea>
+
+      <label for="method">Метод шифрования:</label>
+      <select id="method">
+        <option value="base64">Base64</option>
+        <option value="rot13">ROT13</option>
+        <option value="sha256">SHA-256</option>
+        <option value="sha512">SHA-512</option>
+      </select>
+
+      <button onclick="encrypt()">🔒 Зашифровать</button>
+
+      <textarea id="outputText" placeholder="Зашифрованный результат..." readonly></textarea>
+      <button onclick="copyResult()">📋 Скопировать</button>
+    </div>
+
+    <div class="tab-content" id="about" style="display: none;">
+      <h2>О проекте</h2>
+      <p>Эта программа создана Dinoxha 🦖 для того, чтобы ты мог безопасно шифровать свои пароли и играться с криптографией!<br><br>
+      Работает оффлайн, данные никуда не отправляются — всё шифруется прямо в твоём браузере.</p>
+    </div>
+
+    <div class="tab-content" id="why" style="display: none;">
+      <h2>Зачем шифровать пароли?</h2>
+      <ul>
+        <li>🔐 Чтобы никто не смог украсть твой пароль, даже если получит доступ к базе</li>
+        <li>🧠 Шифрование — основа безопасности в интернете</li>
+        <li>💡 Лучше шифровать, чем потом страдать 😅</li>
+      </ul>
+    </div>
+  </div>
+  
+  <footer>
+    Сделано с ❤️ by Dinoxha 🦖
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
