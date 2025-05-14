@@ -23,5 +23,19 @@ Feel free to explore the code, learn from it, or even contribute and improve it.
 
 Stay tuned — exciting updates are coming! 🚀
 Made with ❤️ by Dinoxha 🦖
+____________________________________________________________________________________________________________
+For Windows Users:
+If you're on Windows and want to install the pre-built version of the project, 
+there are two options:⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+1. For those using Inno Setup:⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+   - You can use the install.iss script to build the installer yourself.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+2. For those who just want to install it right away:⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+   - Download the ready-to-use installer.exe from this Google Drive link:
+   - [dowload installer.exe](https://drive.google.com/file/d/1LWoT8wtUfs8WNSP6kQWTsm3qHwA1FGjU/view?usp=sharing)⠀⠀⠀
+⠀⠀⠀⠀
+____________________________________________________________________________________________________________
 
-for windows, i have installer, "install.iss", and "installer.exe"
+
+
